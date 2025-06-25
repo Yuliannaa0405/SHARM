@@ -709,7 +709,16 @@ a {
 .main-image3{
     margin-left: 60px;
 }
-
+.vector6{
+    position: absolute;
+    right: 402px;
+    bottom: 134px;
+}
+.vector7{
+    position: absolute;
+    right: 75px;
+    bottom: 134px;
+}
 /*-------------------------------------------------sec9-------------------------------------*/
 .sec9-wrap {
     width: 1600px;
