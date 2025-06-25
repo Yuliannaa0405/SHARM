@@ -92,7 +92,19 @@ a {
     line-height: 160%;
     color: var(--білий);
 }
-
+.net{
+    display: flex;
+    gap: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--коричневий);
+    margin-left: 90px;
+    position: absolute;
+    bottom: 30px;
+    
+}
 /*--------------------------------------------------------sec2--------------------------------------------------------*/
 .sec1-wrap {
     width: 1600px;
