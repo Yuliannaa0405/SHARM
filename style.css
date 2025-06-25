@@ -1,0 +1,816 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --рожевий: #9C2482;
+    --білий: #F5F5F5;
+    --коричневий: #524848;
+    --чорний: #121212;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*----------------------------------------------------------header---------------------------------------------------------*/
+.flex {
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    height: 90px;
+    background-color: var(--рожевий);
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo h2 {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 160%;
+    color: var(--білий);
+    position: absolute;
+    left: 190px;
+    top: 20px;
+}
+
+.logo img {
+    position: absolute;
+    left: 90px;
+    top: 20px;
+}
+
+button {
+    all: unset;
+}
+
+.btn1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: var(--білий);
+    border: 1px solid#F5F5F5;
+    padding: 11px 32px 11px 72px;
+    position: relative;
+}
+
+.button1 {
+    position: absolute;
+    right: 90px;
+}
+
+.btn1 img {
+    position: absolute;
+    left: 32px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--білий);
+}
+
+/*--------------------------------------------------------sec2--------------------------------------------------------*/
+.sec1-wrap {
+    width: 1600px;
+    height: 693px;
+    background-image: url(images/Rectangle\ 4.png);
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 89px;
+}
+
+.sec1-wrap h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 160%;
+    color: var(--рожевий);
+    margin-left: 90px;
+    padding-top: 260px;
+    margin-bottom: 20px;
+}
+.font1{
+  font-family: "Playfair Display", serif; 
+  font-weight: 700px; 
+  font-size: 24px;
+  line-height: 160%;
+}
+.font2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+}
+
+.sec1-wrap p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--коричневий);
+    margin-left: 90px;
+}
+
+.btn2 {
+    width: 268px;
+    height: 53px;
+    background-color: var(--рожевий);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--білий);
+    margin-top: 32px;
+    margin-left: 90px;
+}
+
+/*-------------------------------------------------------------sec2---------------------------------------------------*/
+.sec2-wrap {
+    width: 1600px;
+    height: 627px;
+    position: relative;
+}
+
+.sec2-wrap h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    color: var(--рожевий);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sec {
+    display: flex;
+}
+
+.sec img {
+    margin-left: 90px;
+    margin-bottom: 26px;
+}
+
+.text1 h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    color: var(--чорний);
+    margin-left: 50px;
+    margin-right: 73px;
+}
+
+.text1 p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--коричневий);
+    margin-left: 50px;
+    margin-right: 104px;
+    margin-top: 9px;
+}
+
+.btn3 {
+    width: 222px;
+    height: 54px;
+    background-color: var(--рожевий);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--білий);
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.main-image {
+    display: inline-block;
+    position: relative;
+}
+
+.img2 {
+    position: absolute;
+    bottom: 32px;
+    z-index: 1;
+}
+
+.img {
+    position: sticky;
+    z-index: 2;
+}
+
+.img3 {
+    position: absolute;
+    bottom: 49px;
+    left: 12px;
+    z-index: 3;
+}
+
+/*----------------sec3--------------------*/
+.sec3-wrap {
+    width: 1600px;
+    height: 531px;
+    display: flex;
+    gap: 48px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.sec1-1 {
+    width: 290px;
+    height: 263px;
+
+}
+
+.sec3-wrap h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    margin-top: 41px;
+    margin-bottom: 41px;
+}
+
+.sec3-wrap p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--коричневий);
+    text-align: left;
+}
+
+.sec3-wrap h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    color: var(--рожевий);
+    position: absolute;
+    top: 80px;
+    right: 690px;
+}
+
+.icon {
+    margin-top: 30px;
+    align-items: center;
+}
+
+.line1 {
+    width: 1600px;
+    border: 1px solid var(--рожевий);
+    position: absolute;
+}
+
+.line2 {
+    width: 1600px;
+    border: 1px solid var(--рожевий);
+    position: absolute;
+    bottom: 196px;
+}
+
+/*-----------------------sec4-----------------*/
+.sec4-wrap {
+    width: 1600px;
+    height: 510px;
+    position: relative;
+}
+
+.sec2-1 {
+    display: flex;
+    gap: 30px;
+}
+
+.img2-1 {
+    margin-left: 165px;
+    margin-bottom: 47px;
+}
+
+.text2-1 h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    margin-bottom: 30px;
+}
+
+.sec2-1 p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--коричневий);
+    margin-right: 289px;
+    margin-bottom: 30px;
+}
+
+.btn4 {
+    width: 290px;
+    height: 67px;
+    background-color: var(--рожевий);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--білий);
+}
+
+.sec4-wrap h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    color: var(--рожевий);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.img2-3 {
+    position: absolute;
+    right: 90px;
+    bottom: 235px;
+}
+
+.img2-2 {
+    position: absolute;
+    left: 90px;
+    bottom: 235px;
+}
+
+.img2-4 {
+    position: absolute;
+    right: 180px;
+    bottom: 25px;
+}
+
+/*------------sec5-------------------*/
+.sec5-wrap {
+    width: 1600px;
+    height: 608px;
+    position: relative;
+}
+
+.sec5-wrap h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    color: var(--рожевий);
+    text-align: center;
+    margin-top: 64px;
+
+}
+
+.sec-text {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 160%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sec-photo {
+    display: flex;
+    gap: 39px;
+    justify-content: center;
+    text-align: center;
+}
+
+.sec-photo h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--рожевий);
+}
+
+.sec-photo h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--коричневий);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.div0 h3 {
+    width: 400px;
+    height: 87px;
+}
+
+.div1 h3 {
+    width: 400px;
+    height: 80px;
+}
+
+.div2 h3 {
+    width: 400px;
+    height: 87px;
+    padding: 0;
+}
+.vector3{
+    position: absolute;
+    left: 90px;
+    bottom: 304px;
+}
+.vector4{
+    position: absolute;
+    right: 90px;
+    bottom: 304px;
+}
+/*----------------sec6---------------------*/
+.sec6-wrap {
+    width: 1600px;
+    height: 911px;
+    position: relative;
+}
+
+.t {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 110px;
+}
+
+.line1-1 {
+    width: 700px;
+    border: 1px solid var(--рожевий);
+}
+
+.line1-2 {
+    width: 700px;
+    border: 1px solid var(--рожевий);
+}
+
+.sec6-wrap h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    color: var(--рожевий);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.t h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    margin-top: 29px;
+    padding-bottom: 14px;
+    margin-bottom: 7px;
+}
+
+.t p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--коричневий);
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.t2 p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--коричневий);
+    margin-right: 170px;
+}
+
+.btn5 {
+    width: 222px;
+    height: 54px;
+    background-color: var(--рожевий);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--білий);
+    margin-top: 60px;
+    position: absolute;
+    top: 736px;
+    left: 690px;
+}
+
+.t {
+    width: 700px;
+    height: 648px;
+}
+
+/*---------------sec7*--------------------*/
+.sec7-wrap {
+    max-width: 1600px;
+    height: 410px;
+    position: relative;
+}
+
+.vidd {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 37px;
+    position: absolute;
+    left: 230px;
+
+}
+
+.vid {
+    max-width: 640px;
+    max-height: 240px;
+    border: 1px solid var(--рожевий);
+    padding: 20px 45px 42px 35px;
+    position: relative;
+    right: 60px;
+}
+
+.vid2 {
+    max-width: 640px;
+    max-height: 240px;
+    border: 1px solid var(--рожевий);
+    padding: 20px 45px 42px 35px;
+    position: relative;
+    right: 60px;
+}
+
+.im {
+    display: flex;
+    gap: 345px;
+}
+
+.sec7-wrap h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    color: var(--рожевий);
+    margin-top: 25px;
+    margin-bottom: 44px;
+    text-align: center;
+}
+
+.sec7-wrap h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    color: var(--рожевий);
+}
+
+.sec7-wrap p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--коричневий);
+}
+
+.img5 {
+    max-height: 24px;
+}
+.vector1{
+    position: absolute;
+    left: -120px;
+    bottom: 80px;
+}
+.vector2{
+    position: absolute;
+    right: 0px;
+    bottom: 80px;
+}
+
+/*---------------sec8------------------*/
+.sec8-wrap {
+    width: 1600px;
+    height: 532px;
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+    position: relative;
+}
+
+.sec8-wrap img {
+    margin-left: 50px;
+}
+
+.textsec h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 160%;
+    color: var(--рожевий);
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.textsec h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+}
+
+.line {
+    width: 608px;
+    border: 1px solid var(--коричневий);
+    margin-bottom: 30px;
+}
+
+.textsec2 {
+    display: flex;
+    gap: 268px;
+
+}
+
+.btn6 {
+    width: 222px;
+    height: 54px;
+    background-color: var(--рожевий);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--білий);
+    position: absolute;
+    right: 90px;
+    bottom: 0px;
+}
+
+.line11 {
+    width: 280px;
+    height: 0;
+    border: 1px solid var(--коричневий);
+    position: absolute;
+    bottom: 128px;
+
+}
+
+.line12 {
+    width: 280px;
+    height: 0;
+    border: 1px solid var(--коричневий);
+    position: absolute;
+    right: 70px;
+    bottom: 128px;
+}
+.main-image3{
+    margin-left: 60px;
+}
+
+/*-------------------------------------------------sec9-------------------------------------*/
+.sec9-wrap {
+    width: 1600px;
+    height: 491px;
+    margin-bottom: 112px;
+    position: relative;
+}
+
+.sec9 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sec9-wrap h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 160%;
+    color: var(--рожевий);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.sec9 h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+}
+
+.sec9 h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    color: var(--рожевий);
+    margin-bottom: 10px;
+}
+
+.icon22 {
+    margin-bottom: 40px;
+}
+
+.btn7 {
+    width: 222px;
+    height: 54px;
+    background-color: var(--рожевий);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--білий);
+}
+
+
+/*--------------------------------------------------footer-----------------------------------------------------*/
+.sec-footer {
+    width: 1600px;
+    height: 168px;
+    background-color: var(--рожевий);
+    position: relative;
+}
+
+.footer-menu {
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.logo2 h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: lighter;
+    font-size: 32px;
+    line-height: 160%;
+    color: var(--білий);
+    margin-left: 190px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.logo1 {
+    margin-left: 90px;
+    position: absolute;
+    top: 30px;
+}
+
+.contacts h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--білий);
+}
+
+.contacts h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--білий);
+}
+
+.icon33 {
+    margin-top: 10px;
+
+}
+
+.contacts {
+    position: absolute;
+    right: 90px;
+    bottom: 30px;
+}
